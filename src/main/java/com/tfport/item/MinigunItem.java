@@ -28,7 +28,7 @@ public class MinigunItem extends Item {
     }
 
     @Override
-    public int getUseDuration(ItemStack stack) {
+    public int getUseDuration(ItemStack stack, LivingEntity entity) {
         return 72000;
     }
 
@@ -42,7 +42,7 @@ public class MinigunItem extends Item {
         if (level.isClientSide) {
             return;
         }
-        int used = getUseDuration(stack) - remainingUseDuration;
+        int used = getUseDuration(stack, user) - remainingUseDuration;
         user.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 5, 1, false, false));
 
         if (used == 1) {
