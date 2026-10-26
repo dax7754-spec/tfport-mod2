@@ -31,7 +31,7 @@ public class MedigunItem extends Item {
     }
 
     @Override
-    public int getUseDuration(ItemStack stack) {
+    public int getUseDuration(ItemStack stack, LivingEntity entity) {
         return 72000;
     }
 
@@ -57,7 +57,7 @@ public class MedigunItem extends Item {
             server.sendParticles(ParticleTypes.END_ROD, p.x, p.y, p.z, 1, 0, 0, 0, 0);
         }
 
-        int used = getUseDuration(stack) - remainingUseDuration;
+        int used = getUseDuration(stack, user) - remainingUseDuration;
         if (used % HEAL_INTERVAL == 0) {
             target.heal(HEAL_AMOUNT);
             server.sendParticles(ParticleTypes.HEART, target.getX(), target.getEyeY() + 0.3, target.getZ(),
