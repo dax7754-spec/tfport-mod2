@@ -1,0 +1,21 @@
+{
+  "itemGroup.tfport": "TF Port",
+  "item.tfport.scattergun": "Scattergun",
+  "item.tfport.bat": "Bat",
+  "item.tfport.rocket_launcher": "Rocket Launcher",
+  "item.tfport.equalizer": "Equalizer",
+  "item.tfport.minigun": "Minigun",
+  "item.tfport.sandvich": "Sandvich",
+  "item.tfport.medigun": "Medigun",
+  "item.tfport.bonesaw": "Bonesaw",
+  "item.tfport.tf_bot_spawn_egg": "Bot Spawn Egg",
+  "entity.tfport.rocket": "Rocket",
+  "entity.tfport.tf_bot": "Bot",
+  "tfclass.tfport.scout": "Scout",
+  "tfclass.tfport.soldier": "Soldier",
+  "tfclass.tfport.heavy": "Heavy",
+  "tfclass.tfport.medic": "Medic",
+  "message.tfport.class_set": "Your class is now: %s",
+  "message.tfport.class_cleared": "Class cleared",
+  "message.tfport.class_unknown": "Unknown class: %s"
+}

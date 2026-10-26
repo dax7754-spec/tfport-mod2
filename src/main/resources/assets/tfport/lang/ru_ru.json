@@ -1,0 +1,21 @@
+{
+  "itemGroup.tfport": "TF Port",
+  "item.tfport.scattergun": "Дробовик",
+  "item.tfport.bat": "Бита",
+  "item.tfport.rocket_launcher": "Ракетомёт",
+  "item.tfport.equalizer": "Уравнитель",
+  "item.tfport.minigun": "Миниган",
+  "item.tfport.sandvich": "Сэндвич",
+  "item.tfport.medigun": "Медиган",
+  "item.tfport.bonesaw": "Костяная пила",
+  "item.tfport.tf_bot_spawn_egg": "Яйцо призыва бота",
+  "entity.tfport.rocket": "Ракета",
+  "entity.tfport.tf_bot": "Бот",
+  "tfclass.tfport.scout": "Разведчик",
+  "tfclass.tfport.soldier": "Солдат",
+  "tfclass.tfport.heavy": "Тяжёлый",
+  "tfclass.tfport.medic": "Медик",
+  "message.tfport.class_set": "Ваш класс: %s",
+  "message.tfport.class_cleared": "Класс сброшен",
+  "message.tfport.class_unknown": "Неизвестный класс: %s"
+}

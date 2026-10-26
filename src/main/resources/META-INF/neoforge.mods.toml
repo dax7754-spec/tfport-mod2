@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "tfport"
+version = "1.0.0"
+displayName = "TF Port"
+description = '''
+Классы, оружие и боты в стиле командного шутера, перенесённые в Майнкрафт.
+Все текстуры и код в этом моде оригинальные.
+'''
+
+[[dependencies.tfport]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tfport]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
